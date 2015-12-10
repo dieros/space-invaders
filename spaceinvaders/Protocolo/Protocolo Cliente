@@ -1,0 +1,49 @@
+Envia:
+
+"1 | (IZQ / DER) | (LOC / VIS)|"
+"1 |"- Movimiento de mi nave
+	"0 |"-Movimiento hacia la izquierda
+	"1 |"-Movimiento hacia la derecha
+		"0 |"- jug LOCAL
+		"1 |"- jug VISITANTE
+
+"2 | (LOC/VIS)|!
+"2 |" - Disparo de nave
+	"0 |"-jug LOCAL
+	"1 |"-jug VISITANTE
+
+Recibe:
+
+"0 | (nro_jugador) | (nombre_local) | (nombre_visitante)|"
+"0 |"- Datos Iniciales de la Partida
+	"0 |"-Me toca ser el jugador LOC
+	"1 |"-Me toca ser el jugador VIS
+		"(nombre Jug LOC)|"
+			"(nombre Jug VIS)|" 
+
+"1 | (izq/der) | (nave_a_mover) |"
+"1 |"- Movimiento de nave enemiga
+	"0 |"-Mover a la izquierda
+	"1 |"-Mover a la derecha	
+		"0 |"-Mover nave LOC
+		"1 |"-Mover nave VIS
+
+"2 | (LOC/VIS)|"
+"2 |" - Disparo de nave
+	"0 |"-jug LOCAL
+	"1 |"-jug VISITANTE
+
+"4 |" - Mueve fantasmas
+
+/////NUEVO!!
+
+"5 | (inicia/mueve) |"
+"5 |" - Acciones de nave roja
+	" 0 |"- Inicia nave roja
+	" 1 |"- Mueve nave roja
+		" 0 |"-Nave roja Jugador LOCAL
+		" 1 |"-Nave roja Jugador VISITANTE
+
+
+
+
