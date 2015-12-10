@@ -5,7 +5,7 @@ National University of La Matanza, Buenos Aires, Argentina
 #### Intro
 A dockerized version is available to show how the game works (through a web browser)
 without struggling with operating system or package versions.
-As it is a network game, you could expose the container hostname, and invite your friends to play.
+As it is a multiplayer network game, you could expose the container hostname, and invite your friends to play.
 
 #### Pre-requisites
 - [Docker](https://docs.docker.com/get-docker/)
