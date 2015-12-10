@@ -33,8 +33,8 @@ As it is a network game, you could expose the container hostname, and invite you
 - You need at least 2 clients to start a game
 - Each player faces the other only once.
 - Then they will be on hold until a new player joins the server
-- Press keys `a` and `l` to move your ship left and right
-- Press key `g` to fire
+- Use `arrow keys` to move your ship left and right
+- Press `space bar` to fire
 - If you hit the red ship, you get extra points
 
 #### Access container via cli
