@@ -37,6 +37,10 @@ As it is a multiplayer network game, you could expose the container hostname, an
 - Press `space bar` to fire
 - If you hit the red ship, you get extra points
 
+<a href="https://i.ibb.co/TbwQjN4/screencast-127-0-0-1-6080-2020-10-12-01-03-15.gif" target="_blank">
+    <img alt="Qries" src="https://i.ibb.co/DDmcV6J/Captura-de-pantalla-2020-10-12-014428.jpg" width=700" height="380">
+</a>
+
 #### Access container via cli
-`docker-compose exec spaceinv bash`
+`docker-compose exec spaceinv bash` <br>
 You cannot play the game from here. Just to put your hands inside the container
