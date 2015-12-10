@@ -1,0 +1,12 @@
+.idea
+spaceinvaders/Cliente/cliente
+spaceinvaders/Servidor/server
+spaceinvaders/Servidor/auxSm
+spaceinvaders/Servidor/servidor.o
+spaceinvaders/Servidor/usuario
+spaceinvaders/Cliente/csprite.o
+spaceinvaders/Cliente/cliente.o
+spaceinvaders/Cliente/.fuse*
+spaceinvaders/Servidor/tmp
+spaceinvaders/Servidor/aMatar
+cliente *.o
