@@ -13,7 +13,7 @@ and invite your friends to play!
 - [Docker-compose](https://docs.docker.com/compose/install/)
 
 #### Build and run service
-`docker-compose up -d --build`
+`docker compose up -d --build`
 
 #### Access container via browser and play game
 [localhost:6080](http://127.0.0.1:6080/)
@@ -43,5 +43,5 @@ and invite your friends to play!
 </a>
 
 #### Access container via cli
-`docker-compose exec spaceinv bash` <br>
+`docker compose exec spaceinv bash` <br>
 You cannot play the game from here. Just to put your hands inside the container
